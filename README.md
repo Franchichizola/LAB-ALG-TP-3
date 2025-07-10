@@ -27,11 +27,8 @@ Pasos para instalar y ejecutar el proyecto:
        source env/bin/activate
       (no se como se hace lo de requerimientos 😭 )
 
-4. Realizar migraciones:
-   python manage.py migrate
+3. Ejecutar el servidor (desde powershell estando ubicado en ../djangotutorial):
+   python manage.py runserver 
 
-5. Ejecutar el servidor:
-   python manage.py runserver
-
-6. Acceder al sitio desde el navegador:
+4. Acceder al sitio desde el navegador:
    http://127.0.0.1:8000/
